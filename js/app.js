@@ -89,8 +89,8 @@ d3.csv("data/battles.csv",function(error,links){
   .size([width,height])
   .nodes(d3.values(nodes))
   .links(links)
-  .linkDistance(100)
-  .charge(-300)
+  .linkDistance(200)
+  .charge(-600)
   .gravity(0.1)
   .on("tick",tick)
   .start();
